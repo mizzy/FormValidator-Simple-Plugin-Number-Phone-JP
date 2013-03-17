@@ -6,7 +6,7 @@ use FormValidator::Simple;
 FormValidator::Simple->import('Number::Phone::JP');
 
 my $q = CGI->new;
-my $line = 13;
+my $line = 14;
 
 for (1..$line) {
 	my $num = <DATA>;
@@ -41,12 +41,12 @@ __DATA__
 060 33001234
 0255 731234
 096 3471234
+080 99912345
 00299 12345678
 009197 12345678
 0800 9231234
 0997 711234
 050 99991234
-080 99912345
 020 49812345
 070 68912345
 0570 998123

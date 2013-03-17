@@ -4,7 +4,7 @@ use strict;
 use Number::Phone::JP;
 use FormValidator::Simple::Constants;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 our @CARP_NOT = qw(Number::Phone::JP);
 
 sub NUMBER_PHONE_JP {
